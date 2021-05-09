@@ -19,7 +19,7 @@ public class TestClass1 extends BaseClass{
 	 homePage=new HomePage(driver);
 	}
 	
-	// To verify Home Page 
+	// To verify Home Page -- 
 	@Test
 	public void verifyMainPage() {
 		String page= EnvironmentConfig.getInstance().getProperty("pageurl");
