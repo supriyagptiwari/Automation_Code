@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ferns and Patels UI Automation]">
+  <parameter name="market" value="IN"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="env" value="qa"/>
+  <test thread-count="5" name="UI Scenarios 1(failed)">
+    <classes>
+      <class name="com.test.fnp.TestClass1">
+        <methods>
+          <include name="initialize"/>
+          <include name="verifyDeliveryLocation" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.test.fnp.TestClass1 -->
+    </classes>
+  </test> <!-- UI Scenarios 1(failed) -->
+</suite> <!-- Failed suite [Ferns and Patels UI Automation] -->
